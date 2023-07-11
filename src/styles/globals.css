@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+dialog.dialog-class::backdrop{
+  background-color: #000;
+  opacity: 0.8;  
+}
+
 /* Slider */
 .slick-slider
 {
