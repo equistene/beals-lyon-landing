@@ -21,19 +21,19 @@ export default function Home() {
         <title>Beals Lyon Arquitectos</title>
       </Head>
 
-      <main className="overflow-hidden relative min-h-screen">
-        <section className="box absolute top-5 left-5 md:top-10 md:left-10 bg-opacity-50 bg-black p-5 z-10 text-white max-w-xs md:max-w-lg">
+      <main className="overflow-hidden relative min-h-[100dvh]">
+        <section className="box absolute top-5 left-5 md:top-10 md:left-10 bg-opacity-50 bg-black p-5 z-10 text-white max-w-sm md:max-w-lg aspect-square">
           <div className="top">
             <h1 className="text-6xl uppercase spacing tracking-wider">
               <div className=" clear-both flex justify-end mb-1">Beals</div>
               <div className="clear-both">& Lyon</div>
             </h1>
-            <h3 className="uppercase">
+            <h3 className="uppercase whitespace-nowrap text-xs	">
               Arquitectura · Paisajismo · Diseño Interior
             </h3>
           </div>
 
-          <div className="bottom mt-20 text-xl">
+          <div className="bottom mt-20 text-xl absolute bottom-5 left-5">
             <p>
               mail:{" "}
               <Link
