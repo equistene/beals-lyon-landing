@@ -21,7 +21,7 @@ export default function Home() {
         <title>Beals Lyon Arquitectos</title>
       </Head>
 
-      <main className="overflow-hidden relative min-h-[100dvh]">
+      <main className="overflow-hidden relative min-h-[100svh] md:min-h-screen">
         <section className="box absolute top-5 left-5 md:top-10 md:left-10 bg-opacity-50 bg-black p-5 z-10 text-white max-w-sm md:max-w-lg aspect-square">
           <div className="top">
             <h1 className="text-6xl uppercase spacing tracking-wider">
