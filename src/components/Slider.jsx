@@ -13,6 +13,7 @@ export default function SliderMain() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    pauseOnHover: false,
   };
 
   const slideImages = [
@@ -41,6 +42,7 @@ export default function SliderMain() {
               width="1200"
               height="800"
               className="w-screen h-screen object-cover"
+              quality={100}
             />
           </div>
         ))}

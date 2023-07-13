@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 
+body {
+    min-height: 100vh;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
+}
+
+html {
+height: -webkit-fill-available;
+}
+
 dialog.dialog-class::backdrop{
   background-color: #000;
   opacity: 0.8;  

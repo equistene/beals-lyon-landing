@@ -2,6 +2,8 @@ import React, { useState, useRef } from "react";
 import Image from "next/image";
 import Head from "next/head";
 import SliderMain from "@/components/Slider";
+import Logo from "@/components/Logo";
+import LogoSvg from "/public/logo.svg";
 import Link from "next/link";
 
 export default function Home() {
@@ -21,19 +23,23 @@ export default function Home() {
         <title>Beals Lyon Arquitectos</title>
       </Head>
 
-      <main className="overflow-hidden relative min-h-[100svh] md:min-h-screen">
-        <section className="box absolute top-5 left-5 md:top-10 md:left-10 bg-opacity-50 bg-black p-5 z-10 text-white max-w-sm md:max-w-lg aspect-square">
+      <main className="overflow-hidden relative min-h-[100svh] md:min-h-screen flex flex-column">
+        <section className="box absolute top-3 left-3 md:top-5 md:left-5 bg-opacity-30 bg-black p-5 z-10 text-white max-w-sm md:max-w-lg aspect-square">
           <div className="top">
-            <h1 className="text-6xl uppercase spacing tracking-wider">
-              <div className=" clear-both flex justify-end mb-1">Beals</div>
-              <div className="clear-both">& Lyon</div>
-            </h1>
-            <h3 className="uppercase whitespace-nowrap text-xs	">
+            {/* <Logo /> */}
+            <Image
+              src={LogoSvg}
+              alt="Logo"
+              width="300"
+              height="100"
+              className="w-full mb-1"
+            />
+            <h3 className="uppercase whitespace-nowrap text-xs">
               Arquitectura · Paisajismo · Diseño Interior
             </h3>
           </div>
 
-          <div className="bottom mt-20 text-xl absolute bottom-5 left-5">
+          <div className="bottom mt-20 text-md absolute bottom-3 left-3">
             <p>
               mail:{" "}
               <Link
@@ -63,7 +69,7 @@ export default function Home() {
         </section>
 
         <section className="menu absolute bottom-10 left-10 z-10">
-          <div className="flex uppercase gap-8 text-2xl">
+          <div className="flex uppercase gap-8 text-lg">
             <button
               onClick={handleOpen}
               className="text-white uppercase hover:underline "
