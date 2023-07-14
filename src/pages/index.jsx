@@ -69,7 +69,7 @@ export default function Home() {
         </section>
 
         <section className="menu absolute bottom-3 left-3 z-10 md:bottom-5 md:left-5">
-          <div className="flex uppercase gap-8 text-lg">
+          <div className="flex uppercase gap-8 text-lg ">
             <button
               onClick={handleOpen}
               className="text-white uppercase hover:underline "
@@ -90,7 +90,7 @@ export default function Home() {
           ref={dialogRef}
           className="dialog-class p-0 backdrop-grayscale backdrop-blur-xl max-w-sm md:max-w-3xl h-3/4 z-30 relative open:backdrop-blur-lg open:backdrop-saturate-100 "
         >
-          <div className="sticky top-0 w-full text-right flex justify-end">
+          <div className="sticky top-0 w-full text-right flex justify-end z-20">
             <button
               onClick={handleClose}
               aria-label="close"
