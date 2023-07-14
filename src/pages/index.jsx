@@ -5,7 +5,7 @@ import SliderMain from "@/components/Slider";
 import Logo from "@/components/Logo";
 import LogoSvg from "/public/logo.svg";
 import Link from "next/link";
-import { ContentES, ContentEN } from "@/components/content";
+import { ContentES, ContentEN } from "@/components/Content";
 
 export default function Home() {
   const [currentContent, setCurrentContent] = useState("es");
