@@ -15,6 +15,10 @@ export function ContentES() {
         className="mb-5 invert"
       /> */}
 
+        <p className="uppercase font-sans font-semibold">
+          BEALS & LYON ARQUITECTOS
+        </p>
+
         <p>
           Los Conquistadores 2106-A <br /> 7520238 Providencia <br />
           Santiago, Chile <br />
@@ -76,12 +80,13 @@ export function ContentES() {
         </p>
         <p>
           Nuestro trabajo ha sido reconocido con varias distinciones, como el
-          Premio Obra del Año de Archdaily y el Premio Oscar Niemeyer para la
-          Arquitectura Latinoamericana, ambos por el Nuevo Municipio en
-          Nancagua. En el año 2016 Ediciones ARQ publica Beals Lyon Arquitectos:
-          Vacíos Públicos, monografía dedicada a obras de arquitectura pública.
-          En el 2023 exponemos en la Bienal de Venecia representando a Chile con
-          el pabellón Moving Ecologies / Ecologías en Movimiento.
+          <em> Premio Obra del Año</em> de Archdaily y el{" "}
+          <em> Premio Oscar Niemeyer para la Arquitectura Latinoamericana</em>,
+          ambos por el Nuevo Municipio en Nancagua. En el año 2016 Ediciones ARQ
+          publica <em> Beals Lyon Arquitectos: Vacíos Públicos</em>, monografía
+          dedicada a obras de arquitectura pública. En el 2023 exponemos en la
+          Bienal de Venecia representando a Chile con el pabellón
+          <em> Moving Ecologies / Ecologías en Movimiento</em>.
         </p>
         <p>
           En paralelo a nuestra práctica como arquitectos, hemos enseñado la
@@ -101,7 +106,8 @@ export function ContentES() {
           Arquitecto de la Pontificia Universidad Católica de Chile (2005) y
           Master of Sciences (MSc) in Environmental Design and Engineering de
           Bartlett, University College London (UCL), 2011. Directora y Curadora
-          de la XXII Bienal de Arquitectura en Chile, Habitats Vulnerables
+          de la XXII Bienal de Arquitectura en Chile,{" "}
+          <em> Habitats Vulnerables</em>
           (2023). El año 2023 es designada como jurado del premio Holcim Awards.
           En la actualidad dirige la escuela de Arquitectura de la Universidad
           San Sebastián, en Santiago.
@@ -116,13 +122,17 @@ export function ContentEN() {
     <>
       <div className="content relative block z-0 py-3 px-4 [&>p]:mb-4 [&>p]:text-[#444]">
         {/* <Image
-    src={LogoSvg}
-    alt="Equipo"
-    width="400"
-    height="400"
-    quality={100}
-    className="mb-5 invert"
-  /> */}
+          src={LogoSvg}
+          alt="Equipo"
+          width="400"
+          height="400"
+          quality={100}
+          className="mb-5 invert"
+        /> */}
+
+        <p className="uppercase font-sans font-semibold">
+          BEALS & LYON ARQUITECTOS
+        </p>
         <p>
           Los Conquistadores 2106-A <br /> 7520238 Providencia <br />
           Santiago, Chile <br />
@@ -182,12 +192,13 @@ export function ContentEN() {
         </p>
         <p>
           Our practice has been recognized with various design awards, like the
-          Archdaily’s Building of the Year Award and the Oscar Niemeyer Award
-          for Latin American Architecture, both for the project New Town hall in
-          Nancagua. In 2016 Ediciones ARQ publishes the monograph Beals Lyon
-          Arquitectos: Public Voids, featuring a selection of works about public
-          architecture. In 2023 we exhibit at the Venice Biennale with the
-          Chilean pavilion Moving Ecologies / Ecologías en Movimiento.
+          Archdaily’s <em> Building of the Year Award</em> and the{" "}
+          <em> Oscar Niemeyer Award for Latin American Architecture</em>, both
+          for the project New Town hall in Nancagua. In 2016 Ediciones ARQ
+          publishes the monograph <em> Beals Lyon Arquitectos: Public Voids</em>
+          , featuring a selection of works about public architecture. In 2023 we
+          exhibit at the Venice Biennale with the Chilean pavilion
+          <em> Moving Ecologies / Ecologías en Movimiento</em>.
         </p>
         <p>
           In addition to our practice, we have taught at Cornell University’s
@@ -208,8 +219,8 @@ export function ContentEN() {
           receives a Master of Science degree (MSc) in ‘Environmental Design and
           Engineering’ from the Bartlett, University College of London (UCL).
           Director and curator of the XXII Bienal de Arquitectura en Chile,
-          Habitats Vulnerables (2023). In 2023 she is designated as part of the
-          jury for the Holcim Awards.
+          <em> Habitats Vulnerables</em> (2023). In 2023 she is designated as
+          part of the jury for the Holcim Awards.
         </p>
       </div>
     </>

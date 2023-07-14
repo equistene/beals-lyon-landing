@@ -29,6 +29,7 @@ export default function SliderMain() {
     "/images/10.jpg",
     "/images/11.jpg",
     "/images/12.jpg",
+    "/images/13.jpg",
   ];
 
   const randomizedSlideImages = slideImages.sort(() => Math.random() - 0.5);
