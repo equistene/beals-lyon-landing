@@ -100,6 +100,52 @@ export default function Home() {
             </button>
           </div>
           <div className="content relative block z-0 py-3 px-4 [&>p]:mb-4 [&>p]:text-[#444]">
+            {/* <Image
+              src={LogoSvg}
+              alt="Equipo"
+              width="400"
+              height="400"
+              quality={100}
+              className="mb-5 invert"
+            /> */}
+
+            <p>
+              Los Conquistadores 2106-A <br /> 7520238 Providencia <br />
+              Santiago, Chile <br />
+              <Link
+                className="hover:underline"
+                target="_blank"
+                href="tel:+56966558756"
+              >
+                +56 9 6655 8756
+              </Link>
+              <br />{" "}
+              <Link
+                className="hover:underline"
+                href="https://www.beals-lyon.cl"
+                target="_blank"
+              >
+                www.beals-lyon.cl
+              </Link>
+              <br />
+              <Link
+                className="hover:underline"
+                href="mailto:info@beals-lyon.cl"
+                target="_blank"
+              >
+                info@beals-lyon.cl
+              </Link>
+            </p>
+
+            <Image
+              src="/equipo.jpg"
+              alt="Equipo"
+              width="400"
+              height="400"
+              quality={100}
+              className="my-5"
+            />
+
             <p>
               Loreto Lyon y Alejandro Beals fundan el estudio{" "}
               <strong className="font-semibold font-sans">
