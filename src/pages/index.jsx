@@ -37,7 +37,7 @@ export default function Home() {
       </Head>
 
       <main className="overflow-hidden relative full-vh flex flex-column">
-        <section className="box absolute top-3 left-3 md:top-5 md:left-5 bg-opacity-30 bg-black p-5 z-10 text-white max-w-sm md:max-w-lg aspect-square">
+        <section className="box absolute top-3 left-3 md:top-5 md:left-5 bg-opacity-30 bg-black p-2 md:p-5 z-10 text-white max-w-sm md:max-w-lg aspect-square">
           <div className="top">
             {/* <Logo /> */}
             <Image
@@ -47,12 +47,12 @@ export default function Home() {
               height="100"
               className="w-full mb-1"
             />
-            <h3 className="uppercase whitespace-nowrap text-xs">
+            <h3 className="uppercase whitespace-nowrap text-[10px] md:text-xs">
               Arquitectura · Paisajismo · Diseño Interior
             </h3>
           </div>
 
-          <div className="bottom mt-10 text-md absolute bottom-3 left-3 md:bottom-5 md:left-5">
+          <div className="bottom mt-10 text-sm md:text-md absolute bottom-3 left-3 md:bottom-5 md:left-5">
             <p>
               mail:{" "}
               <Link
@@ -82,7 +82,7 @@ export default function Home() {
         </section>
 
         <section className="menu absolute bottom-3 left-3 z-10 md:bottom-5 md:left-5">
-          <div className="flex uppercase gap-8 text-lg ">
+          <div className="flex uppercase gap-8 text-sm md:text-lg ">
             <button
               onClick={handleOpen}
               className="text-white uppercase hover:underline "
