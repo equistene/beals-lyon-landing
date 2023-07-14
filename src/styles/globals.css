@@ -18,6 +18,11 @@ dialog.dialog-class::backdrop{
   opacity: 0.8;  
 }
 
+.full-vh{
+    height: 100vh;
+    height: 100svh;
+}
+
 /* Slider */
 .slick-slider
 {
